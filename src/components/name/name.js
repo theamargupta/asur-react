@@ -1,43 +1,53 @@
 const name = [
   {
+    id: 1,
     name: "prashanatasur",
-    id: "asc1",
+    email: "hrami@delhi.in"
   },
   {
+    id: 2,
     name: "ashishasur",
-    id: "asc2",
+    email: "bhairo baba@delhi.in"
   },
   {
+    id: 3,
     name: "shubhanshasur",
-    id: "asc3",
+    email: "baklol@jabalpur.in"
   },
   {
+    id: 4,
     name: "shanasur",
-    id: "asc4",
+    email: "bhola@delhi.in"
   },
   {
+    id: 5,
     name: "anishasur",
-    id: "asc5",
+    email: "NO_comments@haridwar.in"
   },
   {
+    id: 6,
     name: "sahilaasur",
-    id: "asc6",
+    email: "late_latif@delhi.in"
   },
   {
+    id: 7,
     name: "vanshasur",
-    id: "asc7",
+    email: "gaon_wale@faridabad.in"
   },
   {
+    id: 8,
     name: "Depanshasur",
-    id: "asc8",
+    email: "arnold@almoda.in"
   },
   {
+    id: 9,
     name: "karanasur",
-    id: "asc9",
+    email: "Btech@delhi.in"
   },
   {
+    id: 10,
     name: "bhavlenasur",
-    id: "asc10",
+    email: "attainu&shrinath_lover@delhi.in"
   },
 ];
 export default name;

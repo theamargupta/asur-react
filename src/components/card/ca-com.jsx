@@ -2,6 +2,8 @@ import React from "react";
 import "./ca-style.css";
 export const Card = (props) => (
   <div className="card-container">
-    <h1>{props.asur.name}</h1>
+    <img src={`https://robohash.org/${props.asur.id}?set=set2&size=250x220`} alt=""/>
+    <h2>{props.asur.name}</h2>
+    <p>{props.asur.email}</p>
   </div>
 );
