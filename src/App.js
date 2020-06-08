@@ -13,7 +13,7 @@ class App extends React.Component {
       searchField: "",
     };
   }
-  handChang = (e) => {
+  handChang = e => {
       this.setState({ searchField: e.target.value });
   }
   render() {
@@ -24,6 +24,10 @@ class App extends React.Component {
 
     return (
       <div className="App">
+      <div>
+      <h1> <img className="appImg" src="https://robohash.org/1?set=set2&size=250x220" alt="" /> Asur</h1>
+      </div>
+      
         <SearchBox
           placeholder="Search Asur"
           handChang={this.handChang }
