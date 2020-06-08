@@ -13,7 +13,9 @@ class App extends React.Component {
       searchField: "",
     };
   }
-
+  handChang = (e) => {
+      this.setState({ searchField: e.target.value });
+  }
   render() {
     const { asurs, searchField } = this.state;
     const filterAsurs = asurs.filter((asur) =>
@@ -24,9 +26,7 @@ class App extends React.Component {
       <div className="App">
         <SearchBox
           placeholder="Search Asur"
-          handChang={(e) => {
-            this.setState({ searchField: e.target.value });
-          }}
+          handChang={this.handChang }
         />
         <CardList asurs={filterAsurs} />
       </div>
