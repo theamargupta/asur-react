@@ -3,34 +3,34 @@ import "./App.css";
 
 import name from "./components/name/name";
 import { CardList } from "./components/card-list/ca-li-com";
+import { SearchBox } from "./components/search-box/serch-comp";
 
 class App extends React.Component {
   constructor() {
     super();
     this.state = {
       asurs: name,
+      searchField: "",
     };
   }
 
   render() {
+    const { asurs, searchField } = this.state;
+    const filterAsurs = asurs.filter((asur) =>
+      asur.name.toLowerCase().includes(searchField.toLowerCase())
+    );
+
     return (
       <div className="App">
-        <input
-          type="search"
-          placeholder="search asur"
-          onChange={ e => {
-            this.setState({ searchField: e.target.value }
-            );
+        <SearchBox
+          placeholder="Search Asur"
+          handChang={(e) => {
+            this.setState({ searchField: e.target.value });
           }}
         />
-        <img
-          src="https://img.icons8.com/pastel-glyph/64/000000/search--v2.png"
-          alt=""
-        />
-        <CardList asurs={this.state.asurs} />
+        <CardList asurs={filterAsurs} />
       </div>
     );
   }
 }
 export default App;
-//23 video
