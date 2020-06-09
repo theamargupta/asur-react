@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/asur-react/static/css/main.b96d4aec.chunk.css",
-    "main.js": "/asur-react/static/js/main.7a0ff7b8.chunk.js",
-    "main.js.map": "/asur-react/static/js/main.7a0ff7b8.chunk.js.map",
+    "main.js": "/asur-react/static/js/main.64597a7f.chunk.js",
+    "main.js.map": "/asur-react/static/js/main.64597a7f.chunk.js.map",
     "runtime-main.js": "/asur-react/static/js/runtime-main.d39cd26c.js",
     "runtime-main.js.map": "/asur-react/static/js/runtime-main.d39cd26c.js.map",
     "static/js/2.a82c8ca0.chunk.js": "/asur-react/static/js/2.a82c8ca0.chunk.js",
     "static/js/2.a82c8ca0.chunk.js.map": "/asur-react/static/js/2.a82c8ca0.chunk.js.map",
     "index.html": "/asur-react/index.html",
-    "precache-manifest.be5e3c80835d2912a5d8bee4b62733d7.js": "/asur-react/precache-manifest.be5e3c80835d2912a5d8bee4b62733d7.js",
+    "precache-manifest.09664168045d7585266d2be112085d50.js": "/asur-react/precache-manifest.09664168045d7585266d2be112085d50.js",
     "service-worker.js": "/asur-react/service-worker.js",
     "static/css/main.b96d4aec.chunk.css.map": "/asur-react/static/css/main.b96d4aec.chunk.css.map",
     "static/js/2.a82c8ca0.chunk.js.LICENSE.txt": "/asur-react/static/js/2.a82c8ca0.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d39cd26c.js",
     "static/js/2.a82c8ca0.chunk.js",
     "static/css/main.b96d4aec.chunk.css",
-    "static/js/main.7a0ff7b8.chunk.js"
+    "static/js/main.64597a7f.chunk.js"
   ]
 }
