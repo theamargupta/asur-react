@@ -22,7 +22,7 @@ const name = [
   {
     id: 5,
     name: "anishasur",
-    email: "NO_comments@haridwar.in"
+    email: "My Better Half@haridwar.in"
   },
   {
     id: 6,
